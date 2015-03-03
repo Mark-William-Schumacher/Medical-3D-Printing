@@ -8,7 +8,7 @@ This is an example of the thermoplastic mesh we build the 3D moulds on, after ta
 
 ## Self Designed Algorithm
 
-![Thermoplastic Mesh](https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/HDRMask/Pictures/Inputs2.gif)
+<img src="https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/HDRMask/Pictures/Inputs2.gif" height=250px align="center">
 
 The algorythm works on the a closed surface model, which can be extracted from the x-ray image files using some semi-automated segmentation algorythms. The hospital technition would then define a region of interest and an array of startpoints and endpoints using Slicer's GUI interface. 
 
