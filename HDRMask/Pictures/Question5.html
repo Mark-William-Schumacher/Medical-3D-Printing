@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		p {
+			background-color: #ddd;
+			padding: 10px;
+			overflow: hidden;
+		}
+		
+		p img {
+			max-width: 50%;
+		}
+		
+		p img.wrapLeft {
+			float: left;
+		}
+		
+		p img.wrapRight {
+			float: right;
+		}
+	</style>
+	
+	<script>
+		function highlightIntroduction() {
+			var introductionElement = document.getElementById("introduction");
+			introductionElement.style.backgroundColor = "#999";
+		}
+		
+		function attachHandlers() {
+			var introductionElement = document.getElementById("introduction");
+			introductionElement.onmouseover = highlightIntroduction;
+		}
+		
+		window.onload = attachHandlers;	
+	</script>
+</head>
+   
+<body>
+	<p id="introduction"><img src="http://courses.caslab.queensu.ca/cisc282/wp-content/uploads/sites/6/2014/01/WinSCPLogin.png" class="wrapLeft"/> This is sample text in the first paragraph.</p>
+
+	<p><img src="http://courses.caslab.queensu.ca/cisc282/wp-content/uploads/sites/6/2014/01/WinSCPLogin.png" class="wrapRight"/> This is sample text in the second paragraph.</p>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+   
+<body>
+	<script>
+		var x = 1;
+		var y = 0;
+		var z = "";
+
+		if (x) {
+			x = "Truthy";
+		}
+
+		if (y) {
+			y = "Also truthy";
+		}
+		else if (!z) {
+			z = "Falsey";
+		}
+
+		document.write("x: " + x + "<br/>");
+		document.write("y: " + y + "<br/>");
+		document.write("z: " + z + "<br/>");
+
+		var a = 82;
+		var b = "82";
+		var c;
+		var d;
+
+		if (a == b) {
+			c = (a === b);
+		}
+
+		b = a + 2 + b;
+		a = 5 + (5 * 4);
+
+		document.write("a: " + a + "<br/>");
+		document.write("b: " + b + "<br/>");
+		document.write("c: " + c + "<br/>");
+		document.write("d: " + d + "<br/>");
+
+		var anArray = new Array("Hi");
+		anArray[2] = 5;
+
+		function doSomething()
+		{
+			 anArray[0] = "Hello";
+			m = anArray[2];
+		}
+
+		doSomething();
+		m /= 2;
+
+		document.write("anArray[0]: " + anArray[0] + "<br/>");
+		document.write("anArray[1]: " + anArray[1] + "<br/>");
+		document.write("anArray[2]: " + anArray[2] + "<br/>");
+		document.write("m: " + m + "<br/>");
+	</script>
+ 
+</body>
+
+</html>
