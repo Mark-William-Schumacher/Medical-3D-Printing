@@ -3,3 +3,7 @@ Project I worked on for a year and a half during my undergrad, coded fully in py
 
 
 ![Thermoplastic Mesh](https://raw.githubusercontent.com/Mark-William-Schumacher/Medical-3D-Printing/master/HDRMask/Pictures/3DModel.jpg)
+
+This is an example of the thermoplastic mesh we build the 3D moulds on. 
+
+![Thermoplastic Mesh](https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/HDRMask/Pictures/Inputs2.gif)
