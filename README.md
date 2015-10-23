@@ -1,7 +1,7 @@
 # Medical-3D-Printing
 Project I worked on for a year and a half during my undergrad, coded in python. The underlying image manipulation libraries were c++ provided by VTK.  The Project is used to create 3d printed moulds from a patients X-ray CT scans. These moulds lay on plastic mesh and deliver radiation therapy. I've published a paper on the project, which will be indexed by SPIE. https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/Mark-Schumacher-Spie-Full-Submitted.pdf
 
-<img src="https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/IMG_0100_2.jpg" height=250px>
+<img src="https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/IMG_0100_2.jpg" height=500px>
 
 You can also check out the Poster that I presented as the part of my Queens Computing Undergraduate Project.
 
