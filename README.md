@@ -36,4 +36,4 @@ The next challenge was performance, the project was taking to long to run (~20 m
 <img src="https://raw.githubusercontent.com/Mark-William-Schumacher/Medical-3D-Printing/master/HDRMask/Pictures/programming.PNG" height=250px>
 
 This is the final .STL image produced from running the algorythm described above. 
-<img src="https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/HDRMask/Pictures/finishedMould2.gif" height=250px>
+<img src="https://github.com/Mark-William-Schumacher/Medical-3D-Printing/blob/master/HDRMask/Pictures/finishedMould2.gif" height=250px> 
